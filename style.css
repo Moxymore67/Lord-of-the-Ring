@@ -362,10 +362,22 @@ img.card-img-top {
     bottom: -1.5em;
 }
 
-.lord-button, .send-btn {
+.send-btn {
     color: var(--orange);
     padding: 10px;
     transform: skewX(-15deg);
+}
+
+.lord-btn-cont {
+    transform: skewX(-15deg);
+}
+
+a.lord-button {
+    color: var(--orange);
+    cursor: pointer;
+    background: lightgrey;
+    padding: 10px;
+    text-decoration: none;
 }
 
 .sauron-coin {
@@ -655,8 +667,8 @@ footer p {
         left: 98px;
     }
 
-    .hunters-coins:before {
-        content: url(./assets/img/ring.png);
+    .picture:before {
+        content: url(/assets/img/ring.png);
         position: relative;
         left: -1px;
         top: 3px;

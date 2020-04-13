@@ -17,12 +17,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <a class="nav-link text-white pb-0 pt-3" href="#" tabindex="-1" aria-disabled="true"><h1><img src="./assets/img/logo.png" alt="FindThePrecious logo"></h1></a>
-            <a class="nav-link text-white nav-active" href="#">Fellows</a>
-            <a class="nav-link text-white" href="#">The ring</a>
-            <a class="nav-link text-white" href="#">Reward</a>
-            <a class="nav-link text-white" href="#">Hunters</a>
-            <a class="nav-link text-white" href="#">Join</a>
-            <a class="nav-link text-white" href="#">Contact</a>
+            <a class="nav-link text-white nav-active" href="#anchor-1">Fellows</a>
+            <a class="nav-link text-white" href="#anchor-2">The ring</a>
+            <a class="nav-link text-white" href="#anchor-3">Reward</a>
+            <a class="nav-link text-white" href="#anchor-4">Hunters</a>
+            <a class="nav-link text-white" href="#anchor-5">Join</a>
+            <a class="nav-link text-white" href="#anchor">Contact</a>
         </div>
     </nav>
     <!-- Caroussel -->
@@ -72,7 +72,7 @@
         </a>
     </div>
     <!-- Cards nav -->
-    <div class="cards-container pt-4">
+    <div id="anchor-1" class="cards-container pt-4">
         <h2 class="fellow-h2 pt-4 mb-4">Fellows wanted dead <span class="fellow-span">(or alive if you want to eat them later)</span>
         </h2>
         <ul class="fellow-nav nav nav-pills justify-content-center mb-4">
@@ -118,7 +118,7 @@
         </div>
     </div>
     <!-- Form section -->
-    <div class="dark-container p-4">
+    <div id="anchor-3" class="dark-container p-4">
         <h2 class="fellow-h2 pt-4 mb-4 text-white">I have captured one of them, how to get my reward ?</h2>
         <div class="row container-fluid">
             <p class="col-md-9 text-white text-size">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -130,15 +130,15 @@
                 <img class="img-fluid sauron-coin" src="./assets/img/coin_sauron.jpg" alt="Sauron's coin">
             </div>
         </div>
-        <!-- Button to show the form -->
-        <div class="container text-center">
-            <button type="button" class="lord-button" data-toggle="modal" data-target="#exampleModalCenter">
+        <!-- Button to show the form (anchor-->
+        <div class="container lord-btn-cont text-center">
+            <a href="#anchor" class="lord-button">
                 Contact us
-            </button>
+            </a>
         </div>
     </div>
     <!-- Best hunters section -->
-    <div class="light-container p-4">
+    <div id="anchor-4" class="light-container p-4">
         <h2 class="fellow-h2 pt-4 mb-4 text-black">Our best hunters</h2>
         <div class="row container-fluid">
             <div class="col-md-6 hunter-card">
@@ -149,7 +149,7 @@
                     <div class="col-8 d-flex flex-column justify-content-center">
                         <h3 class="hunters mb-0">elveskiller22</h3>
                         <p class="hunters-score mb-0">2 capucures - <span>profile</span></p>
-                        <p class="hunters-coins mb-0">12 hace</p>
+                        <p class="hunters-coins mb-0"><img src="./assets/img/ring.png" alt="Coin image">12 hace</p>
                     </div>
                 </div>
             </div>
@@ -161,14 +161,14 @@
                     <div class="col-8 d-flex flex-column justify-content-center">
                         <h3 class="hunters mb-0">goblin45</h3>
                         <p class="hunters-score mb-0">1 capucure - <span>profile</span></p>
-                        <p class="hunters-coins mb-0">18 hace</p>
+                        <p class="hunters-coins mb-0"><img src="./assets/img/ring.png" alt="Coin image">18 hace</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- About the ring -->
-    <div class="dark-container mordor p-4">
+    <div id="anchor-2" class="dark-container mordor p-4">
         <h2 class="fellow-h2 pt-4 mb-4 text-white">About the ring</h2>
         <div class="row container-fluid mt-4 mr-0 pr-0">
             <div class="card about-card col-12">
@@ -217,7 +217,7 @@
         </div>
     </div>
     <!-- Mordor army section -->
-    <div class="light-container p-4">
+    <div id="anchor-5" class="light-container p-4">
         <h2 class="fellow-h2 pt-4 mb-4 text-black">Join our mordor army, we need you !</h2>
         <div class="row container-fluid align-items-center">
             <div class="col-lg-8 order-bis">
@@ -249,7 +249,7 @@
         </div>
     </div>
     <!-- Contact us -->
-    <div class="dark-container last p-4">
+    <div id="anchor" class="dark-container last p-4">
         <h2 class="fellow-h2 pt-4 mb-4 text-white">Contact us</h2>
         <div class="row container-fluid mt-4">
             <div class="col-lg-6">
@@ -295,12 +295,12 @@
         <div class="row pt-4 pl-4 pr-4 pb-2 d-flex align-items-center">
             <div class="col-lg-3">
                 <a class="text-white" href="#"><p>About us</p></a>
-                <a class="text-white" href="#"><p>Fellows</p></a>
-                <a class="text-white" href="#"><p>Join our army</p></a>
+                <a class="text-white" href="#anchor-1"><p>Fellows</p></a>
+                <a class="text-white" href="#anchor-5"><p>Join our army</p></a>
             </div>
             <div class="col-lg-3">
                 <a class="text-white" href="#"><p>FAQ</p></a>
-                <a class="text-white" href="#"><p>Reward conditions</p></a>
+                <a class="text-white" href="#anchor-3"><p>Reward conditions</p></a>
                 <a class="text-white" href="#"><p>Legal mentions</p></a>
             </div>
             <div class="col-lg-2"></div>
